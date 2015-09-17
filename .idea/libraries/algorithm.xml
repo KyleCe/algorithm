@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="algorithm">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/httpmime-4.3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
