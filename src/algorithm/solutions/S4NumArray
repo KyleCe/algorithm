@@ -1,0 +1,17 @@
+public class S4NumArray {
+
+    int[] arrs;
+
+    public S4NumArray(int[] nums) {
+        arrs = nums;
+        int len = nums.length;
+        for(int i = 1; i< len; i++){
+            arrs[i] += arrs[i - 1];
+        }
+    }
+
+    public int sumRange(int i, int j) {
+        if(i == 0) return arrs[j];
+        return arrs[j] - arrs[i-1];
+    }
+}
